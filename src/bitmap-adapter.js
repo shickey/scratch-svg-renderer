@@ -58,8 +58,8 @@ class BitmapAdapter {
      * @return {object} Array of new width, new height
      */
     getResizedWidthHeight (oldWidth, oldHeight) {
-        const STAGE_WIDTH = 480;
-        const STAGE_HEIGHT = 360;
+        const STAGE_WIDTH = 1920;
+        const STAGE_HEIGHT = 1080;
         const STAGE_RATIO = STAGE_WIDTH / STAGE_HEIGHT;
 
         // If both dimensions are smaller than or equal to corresponding stage dimension,
